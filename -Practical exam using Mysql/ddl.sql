@@ -1,5 +1,9 @@
 /*
-Question 1: (DDL)  8_Marks
+Question 1: (DDL) – 8 Marks
+Create Students table correctly → 2 Marks
+Create Courses table correctly → 2 Marks
+Create Enrollments table correctly → 2 Marks
+Use constraints correctly (PRIMARY KEY, FOREIGN KEY, NOT NULL, UNIQUE) → 2 Marks
 
 Students Table
 Fields:
@@ -18,14 +22,16 @@ Enrollments Table
 Fields:
 std_code -> FK
 course_code -> FK
-grade
+grade 
 */
+
+-- solve
 
 CREATE DATABASE IF NOT EXISTS student_sys;
 
 USE student_sys;
 
--- Students Table
+
 CREATE TABLE students (
     code INT PRIMARY KEY AUTO_INCREMENT,
     name VARCHAR(120) NOT NULL,
@@ -33,14 +39,14 @@ CREATE TABLE students (
     email VARCHAR(150) UNIQUE
 )auto_increment=20260001;
 
--- Courses Table
+
 CREATE TABLE courses (
     code VARCHAR(120) PRIMARY KEY,
     name VARCHAR(80) NOT NULL,
     hours INT NOT NULL
 );
 
--- Enrollments Table
+
 CREATE TABLE enrollments (
     std_code INT,
     course_code VARCHAR(120),
