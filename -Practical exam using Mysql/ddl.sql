@@ -1,5 +1,5 @@
 /*
-Question 1: (DDL)
+Question 1: (DDL)  8_Marks
 
 Students Table
 Fields:
