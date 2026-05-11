@@ -17,8 +17,7 @@ This repository contains a practical database exam focused on:
 
 The exam is based on the following database schema:
 
-[![ERD](./schema.png)
-](https://github.com/HussienElbatran/student_sys-database-practical-exam/blob/main/student_sys_Diagram.png)
+![System Diagram](student_sys_Diagram.png)
 
 ---
 
