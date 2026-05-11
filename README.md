@@ -6,7 +6,7 @@
 
 ---
 
-# 📌 Overview
+# Overview
 
 This repository contains a practical database exam focused on:
 
@@ -21,9 +21,9 @@ The exam is based on the following database schema:
 
 ---
 
-# 📝 Exam Questions
+# Exam Questions
 
-## 🔹 Question 1 — DDL (8 Marks)
+##  Question 1 — DDL (8 Marks)
 
 Write SQL statements to create the following tables:
 
@@ -50,7 +50,7 @@ Write SQL statements to create the following tables:
 
 ---
 
-## 🔹 Question 2 — DML / INSERT (6 Marks)
+##  Question 2 — DML / INSERT (6 Marks)
 
 Insert the following data into the tables:
 
@@ -74,7 +74,7 @@ Insert the following data into the tables:
 
 ---
 
-## 🔹 Question 3 — SELECT & JOIN (6 Marks)
+##  Question 3 — SELECT & JOIN (6 Marks)
 
 Write SQL queries to:
 
@@ -85,7 +85,7 @@ Write SQL queries to:
 
 ---
 
-# 📊 Mark Distribution
+#  Mark Distribution
 
 | Question | Topic | Marks |
 |----------|-------|--------|
@@ -95,7 +95,3 @@ Write SQL queries to:
 | **Total** |  | **20** |
 
 
-ON students.code = enrollments.std_code
-JOIN courses
-ON enrollments.course_code = courses.code;
-```
