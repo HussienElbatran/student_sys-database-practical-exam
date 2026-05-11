@@ -1,23 +1,28 @@
 /*
-Question 3: (SELECT)
+Question 3: (SELECT) – 6 Marks
+Marks Distribution:
+Query 1: Display student names and emails → 2 Marks
+Query 2: Display courses with hours greater than 60 → 2 Marks
+Query 3: Display student names with course codes and grades using JOIN → 2 Marks
 
-1. Display all student names and emails.
-2. Display all courses where hours are greater than 60.
-3. Display student names, course codes, and grades using JOIN.
 */
+
+
+
+-- solve 
 
 USE student_sys;
 
--- 1
 SELECT name, email
 FROM students;
 
--- 2
+
 SELECT *
 FROM courses
 WHERE hours > 60;
 
--- 3
+
+
 SELECT students.name,
        courses.code,
        enrollments.grade
