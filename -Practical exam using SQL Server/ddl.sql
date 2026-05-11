@@ -27,11 +27,8 @@ grade
 */
 
 -- solve
-/*
-IF DB_ID('student_sys') IS NULL
-BEGIN
-    CREATE DATABASE student_sys;
-END
+
+CREATE DATABASE student_sys;
 GO
 
 
@@ -64,5 +61,3 @@ foreign key (course_code) references courses(code) ON DELETE CASCADE
 
 );
 
-
-*/ 
